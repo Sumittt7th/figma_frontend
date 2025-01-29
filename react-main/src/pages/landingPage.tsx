@@ -1,9 +1,17 @@
 import React from 'react'
-import TopNav from '../components/landingPage/topNav'
+import Header from '../components/companyprofile/header'
+import Loading from '../components/companyprofile/loadingpage'
+import Navbar from '../components/companyprofile/navbar'
+import Team from '../components/companyprofile/team'
 
 function landingPage() {
   return (
-    <TopNav />
+    <>
+    <Navbar />
+    <Header />
+    <Loading />
+    <Team />
+    </>
   )
 }
 
