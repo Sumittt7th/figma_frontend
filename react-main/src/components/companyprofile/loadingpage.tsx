@@ -209,10 +209,11 @@ const LoadingPage: React.FC = () => {
       </Box>
     ))}
   </Box>
-
+<Box sx={{marginTop:"50px"}}>
   <a href="#" color="primary" >
     View All Stacks
   </a>
+  </Box>
   </Box>
 
   <Box
@@ -220,7 +221,6 @@ const LoadingPage: React.FC = () => {
     flex: 1,
     display: "flex",
     flexDirection: "column",
-    alignItems: "center",
     padding: "16px",
   }}
 > <Typography variant="h6" sx={{fontWeight:"bold",fontSize:"30px"}}>Office Location</Typography>
@@ -258,6 +258,11 @@ const LoadingPage: React.FC = () => {
      
     </Box>
   ))}
+   <Box sx={{marginTop:"20px"}}>
+  <a href="#" color="primary" >
+    View Countries
+  </a>
+  </Box>
    
 </Box>
 
